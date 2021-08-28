@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div,
+#photo {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5
+}
+
+button {
+    width: 100%;
+    height: 100px;
+    color: blueviolet;
+    background: pink;
+    font-size: 40px;
+    text-align: center;
+}
+
+div.top {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+}
+
+audio {
+    display: none;
+}
+
+div button.button-hover :hover {
+    background: red;
+}
